@@ -18,7 +18,7 @@ public class clsone {
 	WebDriver drive = new ChromeDriver();
 	String iurl = "https://smartbox-dce.unifiedcloudit.com/home.jsp";
 	drive.get(iurl);
-	drive.manage().window().maximize();
+	drive.manage().window().maximize();;
 /*	drive.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL + "t"); 
 	ArrayList<String> stwo = new ArrayList<String> (drive.getWindowHandles());
 	drive.switchTo().window(stwo.get(1));
